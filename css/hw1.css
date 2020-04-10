@@ -1,0 +1,135 @@
+body {
+	margin: 5px;
+	padding: 2px;
+}
+
+
+header {
+	background-image: url(../imgs/flywheel.jpg);
+	background-size: cover;
+	background-color: #4ABDAC;
+	padding: 60px 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	color: #FC4A1A;
+	background-color: rgba(223, 220, 227, .7);
+	border: transparent;
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #4abdac;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+nav a {
+	display:inline-block;
+	margin: 10px 10px;
+	border-radius: 10%;
+	text-decoration: none;
+	padding: 4px 10px ;
+	width: 200px;
+	height: auto;
+	background-color: rgba(223, 220, 227, .7);
+	color: #FC4A1A;
+	font-size: 30px;
+	font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+.active {
+	background-color: rgb(223, 220, 227);
+	color: #FC4A1A;
+	font-weight: bold;
+}
+
+main {
+	width: 100%;
+}
+
+.right {
+	background-color: #ffffff;
+	width: 75%;
+	float: right;
+	}
+
+.left {
+	float: left;
+	width: 20%;
+	background-color: #F7B733;
+	padding: 20px;
+}
+
+img {
+	border: 2px solid black;
+	height: auto;
+	max-width: 85%;
+	margin: 20px;
+}
+
+p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+}
+
+/*Table Assignment Changes below this line*/
+
+table {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 30px;
+	width: 75%;
+	margin:0 auto;
+}
+
+th {
+	background-image: linear-gradient(to bottom right, #008080, #87ceeb);
+	background-color: #008080;
+	border-bottom: double #000000 2px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*NOTE:::Did not add prefixes based on feedback from caniuse.com which 
+	stated that 94.66% of global broswers did not require it */
+
+th:first-of-type {
+	border-top-left-radius: 8px;
+}
+
+th:last-of-type {
+	border-top-right-radius:8px;
+}
+
+tr {
+	opacity: .75;
+	text-align: center;
+}
+
+tr:hover {
+	opacity: 1;
+}
+
+tr td:first-child {
+	text-align: left;
+	padding-left: 10px;
+}
+
+td{
+	padding: 5px;
+	background-color: #87ceeb;
+	font-family: Tahoma, Geneva, sans-serif;
+	border-radius: 2px;
+	text-shadow: 4px 4px 10px #555555;
+}
